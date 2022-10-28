@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "mssg",
+						"type": "string"
+					}
+				],
+				"name": "chatBox",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "_mssg",
+						"type": "string"
+					}
+				],
+				"name": "sendmsg",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Event1.sol": "chat"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Event1.sol": {
+			"keccak256": "0x41c802239dc2425da15730f86d707a55145e3fd2908897ce2683d8833d1e98af",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://5411ea938bd567e6453dd2dfff52547f488c225a9971b9f15b93d97d94a51e77",
+				"dweb:/ipfs/QmYyEd8V9SseYVKPZ92qc5y7drb3id8YaZVtte8LfzjbvP"
+			]
+		}
+	},
+	"version": 1
+}
